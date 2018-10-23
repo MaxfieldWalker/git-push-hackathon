@@ -6,7 +6,9 @@ GitHub API を用いた gist クライアント。
 
 ## 下準備
 
-プロジェクトルート(`MaxfieldWalker/package.json`があるところ)に`.env`というファイル(ディレクトリではありません)を作り、以下の様式でクライアント ID とクライアントシークレットを記入しておく。
+1. localhost のポート番号 3000 番と 8080 番を使用するので空けておく。 (重要)
+1. GitHub OAuth の Authorization callback URL は `http://localhost:8080`に設定する。 (重要)
+1. プロジェクトルート(`MaxfieldWalker/package.json`があるところ)に`.env`というファイル(ディレクトリではありません)を作り、以下の様式でクライアント ID とクライアントシークレットを記入しておく。 (重要)
 
 ```plaintext
 GITHUB_CLIENT_ID = <クライアントID>
