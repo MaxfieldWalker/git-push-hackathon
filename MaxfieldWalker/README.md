@@ -6,7 +6,7 @@ GitHub API を用いた gist クライアント。
 
 ## 下準備
 
-プロジェクトルート(`MaxfieldWalker/package.json`があるところ)に`.env`というファイルを作り、以下の様式でクライアント ID とクライアントシークレットを記入しておく。
+プロジェクトルート(`MaxfieldWalker/package.json`があるところ)に`.env`というファイル(ディレクトリではありません)を作り、以下の様式でクライアント ID とクライアントシークレットを記入しておく。
 
 ```plaintext
 GITHUB_CLIENT_ID = <クライアントID>
